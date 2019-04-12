@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /**
          * 对user表进行操作
          */
-
         // 设置URI
         Uri uri_user = Uri.parse("content://cn.scu.myprovider/user");
 
