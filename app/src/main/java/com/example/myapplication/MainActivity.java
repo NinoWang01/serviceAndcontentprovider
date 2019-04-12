@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          * 对user表进行操作
          */
         // 设置URI
-        Uri uri_user = Uri.parse("content://cn.scu.myprovider/user");
+        Uri uri_user = Uri.parse("content://com.test.myprovider/user");
 
         // 插入表中数据
         ContentValues values = new ContentValues();
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          * 对job表进行操作
          */
         // 和上述类似,只是URI需要更改,从而匹配不同的URI CODE,从而找到不同的数据资源
-        Uri uri_job = Uri.parse("content://cn.scu.myprovider/job");
+        Uri uri_job = Uri.parse("content://com.test.myprovider/job");
 
         // 插入表中数据
         ContentValues values2 = new ContentValues();
