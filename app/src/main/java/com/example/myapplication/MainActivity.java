@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setContentProvider() {
-
         /**
          * 对user表进行操作
          */
